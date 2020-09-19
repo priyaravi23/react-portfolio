@@ -309,6 +309,10 @@ li {
   border-radius: 50%;
 }
 
+.icon {
+  padding: 10px;
+}
+
 .abstract-back {
   background-image: url('assets/images/abstract.jpg');
   height: 300px;
