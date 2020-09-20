@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.991a6ac8.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.e9801c4d.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.e9801c4d.chunk.js.map",
+    "main.js": "/react-portfolio/static/js/main.034f6f76.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.034f6f76.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.8aa5a7f8.chunk.css": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.dfef767e.chunk.js": "/react-portfolio/static/js/2.dfef767e.chunk.js",
-    "static/js/2.dfef767e.chunk.js.map": "/react-portfolio/static/js/2.dfef767e.chunk.js.map",
+    "static/js/2.775b8087.chunk.js": "/react-portfolio/static/js/2.775b8087.chunk.js",
+    "static/js/2.775b8087.chunk.js.map": "/react-portfolio/static/js/2.775b8087.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.09adf631da2eba450e397980e4ebdc87.js": "/react-portfolio/precache-manifest.09adf631da2eba450e397980e4ebdc87.js",
+    "precache-manifest.eed8ac3b78bf471a557684253dbd8941.js": "/react-portfolio/precache-manifest.eed8ac3b78bf471a557684253dbd8941.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.8aa5a7f8.chunk.css.map": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css.map",
     "static/css/main.991a6ac8.chunk.css.map": "/react-portfolio/static/css/main.991a6ac8.chunk.css.map",
-    "static/js/2.dfef767e.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.dfef767e.chunk.js.LICENSE.txt",
+    "static/js/2.775b8087.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.775b8087.chunk.js.LICENSE.txt",
     "static/media/App.css": "/react-portfolio/static/media/abstract.73bde449.jpg",
     "static/media/avatar.png": "/react-portfolio/static/media/avatar.b76a5c8a.png",
     "static/media/berkeley.png": "/react-portfolio/static/media/berkeley.1dcf6b68.png",
@@ -35,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.8aa5a7f8.chunk.css",
-    "static/js/2.dfef767e.chunk.js",
+    "static/js/2.775b8087.chunk.js",
     "static/css/main.991a6ac8.chunk.css",
-    "static/js/main.e9801c4d.chunk.js"
+    "static/js/main.034f6f76.chunk.js"
   ]
 }
