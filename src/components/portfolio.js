@@ -2,9 +2,12 @@ import React from 'react';
 import Voltron from '../assets/images/voltron.png';
 import Infinity from '../assets/images/infinity.png';
 import Todo from '../assets/images/task-tracker.png';
-import RunBuddy from '../assets/images/run-buddy.png';
+import WineBlogger from '../assets/images/wine-blogger.png';
 import WeatherScanner from '../assets/images/weather-scanner.png';
 import SpecialtyMarket from '../assets/images/specialty-market.png';
+import Taskinator from '../assets/images/taskinator.png';
+import PizzaHunt from '../assets/images/pizza-hunt.png';
+import PwaBudgetTracker from '../assets/images/pwa-budget-tracker.png';
 import '../App.css';
 import '../portfolio.css';
 
@@ -56,12 +59,12 @@ const Portfolio = () => {
                                     </div>
 
                                     <div className="grid-item gallery__item--4">
-                                        <a href='https://priyaravi23.github.io/run-buddy/' target="_blank">
-                                            <img src={RunBuddy} alt="Run Buddy"
+                                        <a href='https://secure-chamber-23014.herokuapp.com/' target="_blank">
+                                            <img src={WineBlogger} alt="Wine Blogger"
                                                  className="gallery__img"/>
                                             <div className="desc">
-                                                <h5>Run Buddy</h5>
-                                                <p>HTML/CSS Grid/Flexbox</p>
+                                                <h5>Wine Blogger</h5>
+                                                <p>Handlebars/database/auth/aws-sdk</p>
                                             </div>
                                         </a>
                                     </div>
@@ -84,6 +87,39 @@ const Portfolio = () => {
                                             <div className="desc">
                                                 <h5>Specialty Market</h5>
                                                 <p>React/CSS Grid</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="grid-item gallery__item--7">
+                                        <a href='https://priyaravi23.github.io/taskinator/' target="_blank">
+                                            <img src={Taskinator} alt="Taskinator App"
+                                                 className="gallery__img"/>
+                                            <div className="desc">
+                                                <h5>Taskinator</h5>
+                                                <p>Web APIs/Local Storage</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="grid-item gallery__item--8">
+                                        <a href='https://pizza-hunt-app.herokuapp.com/' target="_blank">
+                                            <img src={PizzaHunt} alt="Pizza Hunt"
+                                                 className="gallery__img"/>
+                                            <div className="desc">
+                                                <h5>Pizza Hunt</h5>
+                                                <p>MongDB/IndexedDB/Mongoose</p>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div className="grid-item gallery__item--9">
+                                        <a href='https://budget-tracker-pwa-app.herokuapp.com/' target="_blank">
+                                            <img src={PwaBudgetTracker} alt="PWA Budget Tracker"
+                                                 className="gallery__img"/>
+                                            <div className="desc">
+                                                <h5>PWA Budget Tracker</h5>
+                                                <p>MongDB/IndexedDB/Mongoose</p>
                                             </div>
                                         </a>
                                     </div>
