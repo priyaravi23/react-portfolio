@@ -9,6 +9,7 @@ import {
 import About from '../components/about';
 import Portfolio from '../components/portfolio';
 import Contact from '../components/contact';
+import Resume from '../components/resume';
 
 function Navbar() {
 
@@ -35,6 +36,9 @@ function Navbar() {
                 </Route>
                 <Route path="/contact">
                     <Contact />
+                </Route>
+                <Route path="/resume">
+                    <Resume />
                 </Route>
             </Switch>
         </Router>
