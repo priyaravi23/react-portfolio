@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2cb8bacc6d91296732291eff3ec7433e",
+    "revision": "a951d4c892f9491929e5dacd5d70e54d",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "54f15f4befa08dcca4bc",
+    "revision": "70b05646184098480601",
     "url": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "d73e941acb85f1fdda38",
-    "url": "/react-portfolio/static/css/main.991a6ac8.chunk.css"
+    "revision": "48211218bc4de0beba84",
+    "url": "/react-portfolio/static/css/main.ae355c9e.chunk.css"
   },
   {
-    "revision": "54f15f4befa08dcca4bc",
-    "url": "/react-portfolio/static/js/2.775b8087.chunk.js"
+    "revision": "70b05646184098480601",
+    "url": "/react-portfolio/static/js/2.e1d3be86.chunk.js"
   },
   {
     "revision": "bdcfdbef37b771299e3e4252a0d10375",
-    "url": "/react-portfolio/static/js/2.775b8087.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.e1d3be86.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d73e941acb85f1fdda38",
-    "url": "/react-portfolio/static/js/main.034f6f76.chunk.js"
+    "revision": "48211218bc4de0beba84",
+    "url": "/react-portfolio/static/js/main.b7888dd2.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -64,28 +64,48 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-portfolio/static/media/mern-logo.8967ca67.png"
   },
   {
+    "revision": "541dcec40560667c49cccd764392f3d4",
+    "url": "/react-portfolio/static/media/mongodb-logo.541dcec4.png"
+  },
+  {
     "revision": "d262c9ceae6ae9b53a2c9f477ceac5f7",
     "url": "/react-portfolio/static/media/pittsburgh.d262c9ce.png"
+  },
+  {
+    "revision": "2236b22812f10c64ae350b9392f12a42",
+    "url": "/react-portfolio/static/media/pizza-hunt.2236b228.png"
+  },
+  {
+    "revision": "73f73748947606ea21fdd19fd5dc5f53",
+    "url": "/react-portfolio/static/media/pwa-budget-tracker.73f73748.png"
   },
   {
     "revision": "19080b3cc1962fff3d289ffd360e640d",
     "url": "/react-portfolio/static/media/redux-logo.19080b3c.png"
   },
   {
-    "revision": "d03c06001a3a3a81ab720b65b2b6972f",
-    "url": "/react-portfolio/static/media/run-buddy.d03c0600.png"
-  },
-  {
     "revision": "2c035b0740a1ebf4ffc7f0e536d209da",
     "url": "/react-portfolio/static/media/specialty-market.2c035b07.png"
+  },
+  {
+    "revision": "21812f6d8d4844da17453b80216a4445",
+    "url": "/react-portfolio/static/media/sql-logo.21812f6d.png"
   },
   {
     "revision": "a5f4c5aca864a44efefc47868ee2aa09",
     "url": "/react-portfolio/static/media/task-tracker.a5f4c5ac.png"
   },
   {
+    "revision": "3898ebcbf3dcde9daf196277f551a62e",
+    "url": "/react-portfolio/static/media/taskinator.3898ebcb.png"
+  },
+  {
     "revision": "85ac172bceb3ae4080b76d44d1f985b3",
     "url": "/react-portfolio/static/media/voltron.85ac172b.png"
+  },
+  {
+    "revision": "08f0c81fc056ac68a91d127aa3a13657",
+    "url": "/react-portfolio/static/media/vuejs-logo.08f0c81f.png"
   },
   {
     "revision": "ba4481185ccf437497c9ff2e59a80972",
@@ -94,5 +114,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f7099627bd7c464de1c0b40abf87ad86",
     "url": "/react-portfolio/static/media/webpack-logo.f7099627.png"
+  },
+  {
+    "revision": "8f9a972ad9aa40e856b5abed6d1a4795",
+    "url": "/react-portfolio/static/media/wine-blogger.8f9a972a.png"
   }
 ]);
