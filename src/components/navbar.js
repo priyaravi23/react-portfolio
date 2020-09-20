@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link,
@@ -23,20 +23,18 @@ function Navbar() {
                     <Link to="/portfolio">PORTFOLIO</Link>
                     <Link to="/contact">CONTACT</Link>
                     <Link to="/resume">RESUME</Link>
-                    <Redirect from="/" exact to="/about" />
                 </div>
             </div>
 
             <Switch>
-                <Route exact path="/about">
+                <Route exact path="/">
+                    <Redirect to="/about" />
+                </Route>
+                <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/portfolio">
-                    <Portfolio />
-                </Route>
-                <Route path="/contact">
-                    <Contact />
-                </Route>
+                <Route path="/portfolio" component={Portfolio} />
+                <Route path="/contact" component={Contact} />
                 <Route path="/resume">
                     <Resume />
                 </Route>
