@@ -59,6 +59,10 @@ h1 {
     margin-right: 2em;
 }
 
+.error-text {
+    color: var(--orange-soda);
+}
+
 #footer {
     background-color: var(--onyx);
 }

@@ -14,7 +14,7 @@ function ContactForm() {
             const isValid = validateEmail(e.target.value);
 
             if (!isValid) {
-                setErrorMessage('please enter a valid email');
+                setErrorMessage('Please enter a valid email');
             } else {
                 setErrorMessage('');
             }
@@ -50,17 +50,17 @@ function ContactForm() {
                             <section className="justify-content-center" id="contact-section">
                                 <form className="justify-content-center" id="contact-form">
                                     <div>
-                                        <label htmlFor="name">name:</label>
+                                        <label htmlFor="name">Name:</label>
                                         <input className="form-control" type="text" name="name" defaultValue={name}
                                                onBlur={handleChange}/>
                                     </div>
                                     <div>
-                                        <label htmlFor="email">email:</label>
+                                        <label htmlFor="email">Email:</label>
                                         <input className="form-control" type="email" name="email" defaultValue={email}
                                                onBlur={handleChange}/>
                                     </div>
                                     <div>
-                                        <label htmlFor="message">message:</label>
+                                        <label htmlFor="message">Message:</label>
                                         <textarea className="form-control" name="message" defaultValue={message}
                                                   onBlur={handleChange} rows="7"/>
                                     </div>

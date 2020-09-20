@@ -5,6 +5,10 @@ import BootstrapLogo from '../assets/images/bootstrap-logo.png';
 import ReduxLogo from '../assets/images/redux-logo.png';
 import MernLogo from '../assets/images/mern-logo.png';
 import WebpackLogo from '../assets/images/webpack-logo.png';
+import VueLogo from '../assets/images/vuejs-logo.png';
+import HandlebarsLogo from '../assets/images/handlebars-logo.png';
+import SqlLogo from '../assets/images/sql-logo.png';
+import MongoLogo from '../assets/images/mongodb-logo.png';
 import '../App.css';
 import '../portfolio.css';
 
@@ -15,6 +19,18 @@ const Resume = () => {
                 <div className='row'>
                     <div className='col'>
                         <div className='card'>
+                            <div className="header">
+                                <h3>Download Resume: <a href="https://github.com/priyaravi23/react-portfolio/raw/master/src/assets/priya-resume.pdf">Priya Ravi</a>
+                                </h3>
+                            </div>
+
+                            <div className="modal-footer"/>
+
+                            <div className="header">
+                                <h3>Skills</h3>
+                            </div>
+                            <div className="modal-footer"/>
+
                             <div className='card-body'>
                                 <div className="row">
                                     <div className='code'>Computer Science Fundamentals</div>
@@ -38,7 +54,7 @@ const Resume = () => {
 
                             <div className='card-body'>
                                 <div className="row">
-                                    <div className='code'>Web Technologies</div>
+                                    <div className='code'>Technologies</div>
                                 </div>
 
                                 <div className='grid-container-skills'>
@@ -66,6 +82,21 @@ const Resume = () => {
                                         <img src={BootstrapLogo} className='img-skills' />
                                     </div>
 
+                                    <div className='grid-item-skills'>
+                                        <img src={VueLogo} className='img-skills' />
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <img src={HandlebarsLogo} className='img-skills' />
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <img src={SqlLogo} className='img-skills' />
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <img src={MongoLogo} className='img-skills' />
+                                    </div>
                                 </div>
                             </div>
 
@@ -91,32 +122,24 @@ const Resume = () => {
 
                             <div className='card-body'>
                                 <div className="row">
-                                    <div className='code'>Agile Development</div>
+                                    <div className='code'>Project Management</div>
                                 </div>
 
                                 <div className='grid-container-skills'>
                                     <div className='grid-item-skills'>
-                                        <p className='p-about'>Project Management</p>
+                                        <p className='p-about'>Agile Principles and Practices</p>
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <p className='p-about'>User Stories And Acceptance Criteria</p>
+                                        <p className='p-about'>Project Schedule and Risk Management</p>
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <p className='p-about'>Scrum</p>
+                                        <p className='p-about'>Project Scope and Quality Management</p>
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <p className='p-about'>Kanban</p>
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Iterative Development</p>
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Minimum Viable Product</p>
+                                        <p className='p-about'>Software Project Management</p>
                                     </div>
                                 </div>
                             </div>
