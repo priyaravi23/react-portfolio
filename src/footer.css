@@ -1,0 +1,114 @@
+:root {
+    /* from coolers: https://coolors.co/f06543-e8e9eb-e0dfd5-313638-f09d51 */
+    --orange-soda:#F06543;
+    --platinum:#E8E9EB;
+    --alabaster:#E0DFD5;
+    --onyx:#313638;
+    --sandy-brown: #F09D51;
+}
+
+.img-link {
+    text-align: center;
+}
+
+.footer-info {
+    font-size: 24px;
+    color: var(--orange-soda);
+    font-weight: bold;
+    background-color: var(--platinum);
+    text-align: center;
+}
+
+h1 {
+    margin: auto 30px;
+    padding: 10px;
+    color: var(--onyx);
+    font-weight: bold;
+}
+
+#project-icon {
+    background-color: var(--platinum);
+    padding: 5px;
+}
+
+#topics {
+    font-size: small;
+    font-style: italic;
+    color: var(--onyx);
+}
+
+#card-title {
+    margin-top: 10px;
+    color: var(--onyx);
+    text-shadow: 1px 1px 6px var(--sandy-brown);
+}
+
+#footer {
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.icon {
+    padding: 10px;
+}
+
+#about-section {
+    margin: 2em;
+}
+
+#about-section p {
+    background-color: var(--alabaster);
+    color: var(--onyx);
+}
+
+#contact-section {
+    justify-content: center;
+    margin: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+}
+
+#front-back ul {
+    list-style-type: none;
+}
+
+#front-back ul li {
+    list-style-type: none;
+}
+
+#front-back h2 {
+    color: var(--onyx);
+}
+
+#front-back p {
+    background-color: var(--alabaster);
+}
+
+#resume p {
+    background-color: var(--alabaster);
+    color: var(--onyx);
+    margin-top: 5px;
+}
+
+#footer {
+    background-color: var(--onyx);
+}
+
+#footer .icon {
+    background-color: var(--onyx);
+    margin-top: 20px;
+}
+
+#footer p {
+    background-color: var(--onyx);
+    margin-top: 8px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: var(--orange-soda);
+}
+
+#react-icon {
+    background-color: var(--onyx);
+}
