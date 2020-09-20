@@ -52,42 +52,11 @@ h1 {
     padding: 10px;
 }
 
-#about-section {
-    margin: 2em;
-}
-
-#about-section p {
-    background-color: var(--alabaster);
-    color: var(--onyx);
-}
-
 #contact-section {
     justify-content: center;
     margin: 20px;
-    margin-left: 10em;
-    margin-right: 10em;
-}
-
-#front-back ul {
-    list-style-type: none;
-}
-
-#front-back ul li {
-    list-style-type: none;
-}
-
-#front-back h2 {
-    color: var(--onyx);
-}
-
-#front-back p {
-    background-color: var(--alabaster);
-}
-
-#resume p {
-    background-color: var(--alabaster);
-    color: var(--onyx);
-    margin-top: 5px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 #footer {
