@@ -78,10 +78,18 @@
     color: var(--primary-color);
     padding: 5px 5px;
     position: absolute;
-    bottom: 20px;
+    top: 5px;
     font-size: small;
     overflow-wrap: break-word;
     width: 130px;
+}
+
+.dep-links {
+  position: absolute;
+  bottom: 5px;
+  font-size: small;
+  overflow-wrap: break-word;
+  width: 130px;
 }
 
 .desc h5 {

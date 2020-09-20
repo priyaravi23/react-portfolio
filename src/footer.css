@@ -26,11 +26,6 @@ h1 {
     font-weight: bold;
 }
 
-#project-icon {
-    background-color: var(--platinum);
-    padding: 5px;
-}
-
 #topics {
     font-size: small;
     font-style: italic;
