@@ -7,8 +7,9 @@ import {
     Redirect
 } from "react-router-dom";
 import About from '../components/about';
+import Portfolio from '../components/portfolio';
 
-function NavBar() {
+function Navbar() {
 
     return (
         <Router>
@@ -28,9 +29,12 @@ function NavBar() {
                 <Route exact path="/about">
                     <About />
                 </Route>
+                <Route path="/portfolio">
+                    <Portfolio />
+                </Route>
             </Switch>
         </Router>
     );
 }
 
-export default NavBar;
+export default Navbar;
