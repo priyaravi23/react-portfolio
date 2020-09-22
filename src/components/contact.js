@@ -71,9 +71,20 @@ function ContactForm() {
                                     )}
 
                                     <div>
-                                        <button data-testid='button' className="btn btn-outline-dark mt-4" type="submit"
-                                                onSubmit={handleSubmit}>Submit
-                                        </button>
+                                        {name && email && message && !errorMessage ?
+                                            <button data-testid='button'
+                                                    className="btn btn-outline-dark mt-4"
+                                                    type="submit"
+                                                    onSubmit={handleSubmit}>Submit
+                                            </button> :
+
+                                            <button disabled
+                                                    data-testid='button'
+                                                    className="btn btn-outline-dark mt-4"
+                                                    type="submit">Submit
+                                            </button>
+                                        }
+
                                     </div>
                                 </form>
                             </section>

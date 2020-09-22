@@ -3,7 +3,7 @@ import {
     HashRouter as Router,
     Switch,
     Route,
-    Link,
+    NavLink,
     Redirect
 } from "react-router-dom";
 import About from '../components/about';
@@ -17,12 +17,36 @@ function Navbar() {
         <Router>
             <div className='topnav'>
                 <div className='topnav-left'>
-                    <Link to="/about">ABOUT</Link>
+                    <NavLink
+                        activeClassName="navbar__link--active"
+                        className="navbar__link"
+                        to="/about"
+                    >
+                        ABOUT
+                    </NavLink>
                 </div>
                 <div className='topnav-right'>
-                    <Link to="/portfolio">PORTFOLIO</Link>
-                    <Link to="/contact">CONTACT</Link>
-                    <Link to="/resume">RESUME</Link>
+                    <NavLink
+                        activeClassName="navbar__link--active"
+                        className="navbar__link"
+                        to="/portfolio"
+                    >
+                        PORTFOLIO
+                    </NavLink>
+                    <NavLink
+                        activeClassName="navbar__link--active"
+                        className="navbar__link"
+                        to="/contact"
+                    >
+                        CONTACT
+                    </NavLink>
+                    <NavLink
+                        activeClassName="navbar__link--active"
+                        className="navbar__link"
+                        to="/resume"
+                    >
+                        RESUME
+                    </NavLink>
                 </div>
             </div>
 

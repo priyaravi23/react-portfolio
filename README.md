@@ -4,6 +4,10 @@
 
 https://priyaravi23.github.io/react-portfolio
 
+### Application Screenshot
+
+![](src/assets/images/app-screenshot.png)
+
 ### User Story
 
 ```text
