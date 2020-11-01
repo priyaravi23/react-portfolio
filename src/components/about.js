@@ -23,8 +23,8 @@ const About = () => {
                                 <div className="row">
                                     <p className='p-about'>
                                         Software Engineer with a demonstrated history of working on production web and mobile applications. Deep
-                                        understanding and technical expertise in Computer Science fundamentals, Javascript, ReactJS, Redux, NodeJS, MongoDB CSS,
-                                        HTML and other frontend technologies.
+                                        understanding and technical expertise in Computer Science fundamentals, Javascript, ReactJS, Redux, VueJS, Vuex, NodeJS, MongoDB, CSS,
+                                        HTML and other technologies.
                                     </p>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ const About = () => {
                                     </div>
 
                                     <div className='grid-item'>
-                                        <img className='university-logo' src={BerkeleyLogo} />
+                                        <a href='https://www.berkeley.edu/' target='_blank'><img className='university-logo' src={BerkeleyLogo} /></a>
                                     </div>
 
                                     <div className="grid-item">
@@ -51,16 +51,16 @@ const About = () => {
                                     </div>
 
                                     <div className="grid-item">
-                                        <img className='university-logo' src={PittsburghLogo} />
+                                        <a href='https://www.pitt.edu/' target='_blank'><img className='university-logo' src={PittsburghLogo} /></a>
                                     </div>
 
                                     <div className="grid-item">
                                         <div className='title-uni'>Carleton University</div>
-                                        <div className='title-concentration'>Bachelor of Electrical & Computer Engineering</div>
+                                        <div className='title-concentration'>Bachelor of Electrical and Biomedical Engineering</div>
                                     </div>
 
                                     <div className="grid-item">
-                                        <img className='university-logo' src={CarletonLogo} />
+                                        <a href='https://carleton.ca/' target='_blank'><img className='university-logo' src={CarletonLogo} /></a>
                                     </div>
                                 </div>
                             </div>

@@ -1,99 +1,68 @@
-import React, {useState} from 'react';
-import {validateEmail} from '../utils/helper';
+import React from 'react';
+import Container from 'react-bootstrap/Container';
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+import ContactForm from '../components/contact-form';
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import '../App.css';
 
-function ContactForm() {
-
-    const [formState, setFormState] = useState({name: '', email: '', message: ''});
-
-    const [errorMessage, setErrorMessage] = useState('');
-
-    const {name, email, message} = formState;
-
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
-
-            if (!isValid) {
-                setErrorMessage('Please enter a valid email');
-            } else {
-                setErrorMessage('');
-            }
-
-        } else {
-            if (!e.target.value.length) {
-                setErrorMessage(`${e.target.name} is required.`);
-            } else {
-                setErrorMessage('');
-            }
-        }
-
-        if (!errorMessage) {
-            setFormState({...formState, [e.target.name]: e.target.value})
-        }
-    }
-
-    function handleSubmit(e) {
-        e.preventDefault();
-    }
-
-    return (
-        <div className='container'>
-            <div className='row'>
-                <div className='col'>
-                    <div className='card'>
-                        <div className='card-body'>
-                            <div className="header">
-                                <h3>Contact Me</h3>
-                            </div>
-                            <div className="modal-footer"/>
-
-                            <section className="justify-content-center" id="contact-section">
-                                <form className="justify-content-center" id="contact-form">
-                                    <div>
-                                        <label htmlFor="name">Name:</label>
-                                        <input className="form-control" type="text" name="name" defaultValue={name}
-                                               onBlur={handleChange}/>
-                                    </div>
-                                    <div>
-                                        <label htmlFor="email">Email:</label>
-                                        <input className="form-control" type="email" name="email" defaultValue={email}
-                                               onBlur={handleChange}/>
-                                    </div>
-                                    <div>
-                                        <label htmlFor="message">Message:</label>
-                                        <textarea className="form-control" name="message" defaultValue={message}
-                                                  onBlur={handleChange} rows="7"/>
-                                    </div>
-                                    {errorMessage && (
-                                        <div>
-                                            <p className="error-text">{errorMessage}</p>
-                                        </div>
-                                    )}
-
-                                    <div>
-                                        {name && email && message && !errorMessage ?
-                                            <button data-testid='button'
-                                                    className="btn btn-outline-dark mt-4"
-                                                    type="submit"
-                                                    onSubmit={handleSubmit}>Submit
-                                            </button> :
-
-                                            <button disabled
-                                                    data-testid='button'
-                                                    className="btn btn-outline-dark mt-4"
-                                                    type="submit">Submit
-                                            </button>
-                                        }
-
-                                    </div>
-                                </form>
-                            </section>
-                        </div>
-                    </div>
+function Contact() {
+  return (
+    <div className='container'>
+        <Jumbotron fluid className="p-5 mb-0">
+            <Container className="text-center">
+                <div className="p-md-5">
+                    <h1>Get in Touch</h1>
                 </div>
-            </div>
-        </div>
-    );
+            </Container>
+        </Jumbotron>
+
+        <Container fluid className="shadow bg-light mb-5">
+            <Container className="p-4">
+                <Row>
+                    <Col>
+                        <Container>
+                            <h4 style={{color: "#F06543"}}>Contact Info</h4>
+                            <p>
+                                <a href="mailto:priyaravi23@gmail.com">
+                                    <span className="pr-3">
+                                        <FaEnvelope />
+                                    </span>
+                                    priyaravi23@gmail.com
+                                </a>
+                            </p>
+                            
+                            <p>
+                                <a href="https://github.com/priyaravi23" target='_blank'>
+                                    <span className="pr-3">
+                                        <FaGithub />
+                                    </span>
+                                    priyaravi23
+                                </a>
+                            </p>
+                            <p>
+                                <a href="https://www.linkedin.com/in/priya-ravi-4508437b/" target='_blank'>
+                                    <span className="pr-3">
+                                        <FaLinkedin />
+                                    </span>
+                                    priya-ravi-4508437b
+                                </a>
+                            </p>
+                        </Container>
+                    </Col>
+
+                    <Col sm={12} md={6} lg={8} className="pt-sm-4 pt-lg-0">
+                        <Container>
+                            <h4 style={{color: "#F06543"}}>Send a Message</h4>
+                            <ContactForm />
+                        </Container>
+                    </Col>
+                </Row>
+            </Container>
+        </Container>
+    </div>
+  )
 }
 
-export default ContactForm;
+export default Contact;
