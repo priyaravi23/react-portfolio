@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed5966aeee2b41bf95da5e931f1fa17f",
+    "revision": "440b860f6fc2dc837625518d3a3cc9b5",
     "url": "/react-portfolio/index.html"
   },
   {
-    "revision": "01bd8621210745382c91",
+    "revision": "668cf1d36c67980bf447",
     "url": "/react-portfolio/static/css/2.8aa5a7f8.chunk.css"
   },
   {
-    "revision": "99f57e7940a87d9084b7",
-    "url": "/react-portfolio/static/css/main.26f72eb1.chunk.css"
+    "revision": "b7f9614bf41a8d741321",
+    "url": "/react-portfolio/static/css/main.6e549209.chunk.css"
   },
   {
-    "revision": "01bd8621210745382c91",
-    "url": "/react-portfolio/static/js/2.e40c8c3a.chunk.js"
+    "revision": "668cf1d36c67980bf447",
+    "url": "/react-portfolio/static/js/2.95419fef.chunk.js"
   },
   {
     "revision": "a5f655d830d088aa9894c35a94634b59",
-    "url": "/react-portfolio/static/js/2.e40c8c3a.chunk.js.LICENSE.txt"
+    "url": "/react-portfolio/static/js/2.95419fef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "99f57e7940a87d9084b7",
-    "url": "/react-portfolio/static/js/main.9f3cd485.chunk.js"
+    "revision": "b7f9614bf41a8d741321",
+    "url": "/react-portfolio/static/js/main.d62f7170.chunk.js"
   },
   {
     "revision": "aff33cef9dbb8787d6b3",
@@ -118,6 +118,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "08f0c81fc056ac68a91d127aa3a13657",
     "url": "/react-portfolio/static/media/vuejs-logo.08f0c81f.png"
+  },
+  {
+    "revision": "2ddae873de878c6452938305d043a790",
+    "url": "/react-portfolio/static/media/weather-dashboard.2ddae873.png"
   },
   {
     "revision": "ba4481185ccf437497c9ff2e59a80972",
