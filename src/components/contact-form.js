@@ -38,7 +38,7 @@ function ContactForm() {
       // https://medium.com/@shrivastavasucheta/sending-an-email-using-emailjs-gmail-service-to-be-used-in-javascript-d6eb92ed0c7c
       // emailjs.sendForm(serviceID, templateID, templateParams, userID);
 
-      emailjs.sendForm('gmail', 'template_7pi3req', '#contactForm', 'user_2ClFT2CBVbPN3tPCiXsd0')
+      emailjs.sendForm('service_60hfdfd', 'template_7pi3req', '#contactForm', 'user_2ClFT2CBVbPN3tPCiXsd0')
       .then(function(response) {
         console.log(response.text);
         setFormMessage("Message sent!");

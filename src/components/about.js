@@ -13,57 +13,126 @@ const About = () => {
                     <div className='col'>
                         <div className='card'>
 
+                            {/* Avatar Section */}
                             <div className='card-body'>
-                                <div className="row abstract-back ">
-                                    <img className='avatar' src={Avatar} />
+                                <div className="row abstract-back">
+                                    <img className='avatar' src={Avatar} alt="Avatar" />
                                 </div>
                             </div>
 
+                            {/* Summary Section */}
                             <div className='card-body'>
                                 <div className="row">
                                     <p className='p-about'>
-                                        Software Engineer with a demonstrated history of working on production web and mobile applications. Deep
-                                        understanding and technical expertise in Computer Science fundamentals, Javascript, ReactJS, Redux, VueJS, Vuex, NodeJS, MongoDB, CSS,
-                                        HTML and other technologies.
+                                        Full-Stack Software Engineer with 7+ years of experience specializing in frontend development, React ecosystems, and Node.js backend development.
                                     </p>
                                 </div>
                             </div>
 
                             <div className="modal-footer" />
 
+                            {/* Technical Skills Section */}
                             <div className='card-body'>
-                                <h2 className='edu'>Education</h2>
+                                <h2>Technical Skills</h2>
+                                <br />
+
+                                <div className='grid-container-skills'>
+                                    <div className='grid-item-skills'>
+                                        <strong>Frontend Development:</strong>
+                                        <p>React.js, Vue.js, Next.js, TypeScript, JavaScript (ES6+)</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>Frameworks & Libraries:</strong>
+                                        <p>Material-UI, Tailwind CSS, Styled Components</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>State Management:</strong>
+                                        <p>Redux, Vuex, React Context API</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>Backend Development:</strong>
+                                        <p>Node.js, Express.js, REST APIs, GraphQL</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>Databases:</strong>
+                                        <p>MongoDB, MySQL</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>Testing & Quality:</strong>
+                                        <p>Jest, React Testing Library, Cypress</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>Build Tools:</strong>
+                                        <p>Webpack, Vite, npm, Yarn</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>Version Control:</strong>
+                                        <p>Git, GitHub</p>
+                                    </div>
+
+                                    <div className='grid-item-skills'>
+                                        <strong>Cloud & CI/CD:</strong>
+                                        <p>Jenkins, GitHub Actions, AWS</p>
+                                    </div>
+
+                                    {/* AI Models/Tools Section */}
+                                    <div className='grid-item'>
+                                        <strong>AI Models / Tools:</strong>
+                                        <p>OpenAI GPT models, Hugging Face, Llama</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            {/* Education Section */}
+                            <div className='card-body'>
+                                <h2>Education</h2>
                                 <br />
 
                                 <div className='grid-container-profile'>
                                     <div className='grid-item'>
-                                        <div className='title-uni'>University Of California, Berkeley</div>
+                                        <div className='title-uni'>University of California, Berkeley</div>
                                         <div className='title-concentration'>Full Stack Web Development</div>
                                     </div>
-
                                     <div className='grid-item'>
-                                        <a href='https://www.berkeley.edu/' target='_blank'><img className='university-logo' src={BerkeleyLogo} /></a>
+                                        <a href='https://www.berkeley.edu/' target='_blank' rel="noopener noreferrer">
+                                            <img className='university-logo' src={BerkeleyLogo} alt="Berkeley Logo" />
+                                        </a>
                                     </div>
 
                                     <div className="grid-item">
-                                        <div className='title-uni'>University Of Pittsburgh</div>
-                                        <div className='title-concentration'>Master of Science in Medical Product Engineering</div>
+                                        <div className='title-uni'>University of Pittsburgh</div>
+                                        <div className='title-concentration'>Master of Science in Engineering</div>
                                     </div>
-
                                     <div className="grid-item">
-                                        <a href='https://www.pitt.edu/' target='_blank'><img className='university-logo' src={PittsburghLogo} /></a>
+                                        <a href='https://www.pitt.edu/' target='_blank' rel="noopener noreferrer">
+                                            <img className='university-logo' src={PittsburghLogo} alt="Pittsburgh Logo" />
+                                        </a>
                                     </div>
 
                                     <div className="grid-item">
                                         <div className='title-uni'>Carleton University</div>
-                                        <div className='title-concentration'>Bachelor of Electrical and Biomedical Engineering</div>
+                                        <div className='title-concentration'>Bachelor of Engineering</div>
                                     </div>
-
                                     <div className="grid-item">
-                                        <a href='https://carleton.ca/' target='_blank'><img className='university-logo' src={CarletonLogo} /></a>
+                                        <a href='https://carleton.ca/' target='_blank' rel="noopener noreferrer">
+                                            <img className='university-logo' src={CarletonLogo} alt="Carleton Logo" />
+                                        </a>
                                     </div>
                                 </div>
                             </div>
+
+                            {/* Resume Download Link */}
+                            <div className="header">
+                                <h3>Download Resume: <a href="/Priya-Resume-2025-Software-Engineer.pdf" download>Priya Ravi</a></h3>
+                            </div>
+
                         </div>
                     </div>
                 </div>

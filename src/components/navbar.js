@@ -28,13 +28,6 @@ function Navbar() {
                 >
                     CONTACT
                 </NavLink>
-                <NavLink
-                    activeClassName="navbar__link--active"
-                    className="navbar__link"
-                    to="/resume"
-                >
-                    RESUME
-                </NavLink>
             </div>
         </div>
     );

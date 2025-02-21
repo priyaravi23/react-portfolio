@@ -136,22 +136,14 @@
   grid-template-rows: repeat(auto-fill, 100px);
 }
 
-.grid-item-skills {
-  padding-left: 20px;
-  text-align: left;
-}
-
 .portfolio-grid-item {
   text-align: left;
 }
 
 .grid-container-profile {
   display: grid;
-  align-items: left;
-  justify-items: left;
-  grid-template-columns: repeat(2, 600px);
-  grid-template-rows: repeat(3, 100px);
-  margin: 1.5%;
+  grid-template-columns: repeat(2, 1fr); /* This will create two equal columns */
+  gap: 20px; /* Adjust the gap between items if needed */
 }
 
 .portfolio-grid-container {
@@ -160,11 +152,31 @@
 
 }
 
+.grid-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: start; /* Aligns content to the top */
+}
+
+.grid-item img {
+  align-self: start; /* Ensure the images align at the top of their cell */
+}
+
+.grid-container-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* This will create two equal columns */
+  gap: 20px; /* Adjust the gap between items if needed */
+}
+
+.grid-item-skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: start; /* Aligns content to the top */
+}
+
 .university-logo {
-  float: right;
-  height: 80px;
-  width: 80px;
-  cursor: pointer;
+  max-width: 100%; /* Ensure logos don't overflow */
+  max-height: 80px; /* Limit the height of logos */
 }
 
 .App {
@@ -365,3 +377,4 @@ li {
       max-width: 1000px !important;
   }
 }
+

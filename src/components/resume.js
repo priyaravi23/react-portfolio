@@ -20,7 +20,7 @@ const Resume = () => {
                     <div className='col'>
                         <div className='card'>
                             <div className="header">
-                                <h3>Download Resume: <a href="https://github.com/priyaravi23/react-portfolio/raw/master/src/assets/priya-resume.pdf">Priya Ravi</a>
+                                <h3>Download Resume: <a href="/Priya-Resume-2025-Software-Engineer.pdf" download>Priya Ravi</a>
                                 </h3>
                             </div>
 

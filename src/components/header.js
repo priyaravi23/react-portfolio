@@ -8,7 +8,6 @@ import {
 import About from '../components/about';
 import Portfolio from '../components/portfolio';
 import Contact from '../components/contact';
-import Resume from '../components/resume';
 import NavBar from '../components/navbar';
 
 function Header() {
@@ -24,9 +23,6 @@ function Header() {
                 </Route>
                 <Route path="/portfolio" component={Portfolio} />
                 <Route path="/contact" component={Contact} />
-                <Route path="/resume">
-                    <Resume />
-                </Route>
             </Switch>
         </Router>
     )
