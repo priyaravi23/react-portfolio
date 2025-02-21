@@ -10,7 +10,7 @@ function Footer() {
                 <a href="https://twitter.com/priyaravi231" target="_blank"><img src="https://img.icons8.com/color/48/000000/twitter.png" alt="Twitter" className="icon"/></a>
             </div>
             <p className='footer-info'>
-                &copy; Priya Ravi  |  <a href="/Priya-Resume-2025-Software-Engineer.pdf" download className="link">download resume</a>  |  <a href="https://coolors.co/f06543-e8e9eb-e0dfd5-313638-f09d51">color palette</a>  |  made with <img id="react-icon" src="https://img.icons8.com/color/48/000000/react-native.png" alt="React"/>
+                &copy; Priya Ravi  |  <a href="/react-portfolio/Priya-Resume-2025-Software-Engineer.pdf" download className="link">download resume</a>  |  <a href="https://coolors.co/f06543-e8e9eb-e0dfd5-313638-f09d51">color palette</a>  |  made with <img id="react-icon" src="https://img.icons8.com/color/48/000000/react-native.png" alt="React"/>
             </p>
 
         </div>
