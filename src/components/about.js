@@ -24,8 +24,7 @@ const About = () => {
                             <div className='card-body'>
                                 <div className="row">
                                     <p className='p-about'>
-                                        Full-Stack Software Engineer with 7+ years of experience specializing in frontend development, React ecosystems, and Node.js backend development.
-                                    </p>
+                                    Hi, I’m Priya Ravi, a Senior Software Engineer with 7+ years of experience specializing in React, Next.js, and building scalable, high-performance web applications. I’m passionate about optimizing frontend experiences, creating intuitive user interfaces, and leveraging AI to deliver smarter, user-centric products. I focus on building solutions that solve real-world problems and deliver measurable value to users. </p>
                                 </div>
                             </div>
 
@@ -129,10 +128,9 @@ const About = () => {
                             </div>
 
                             {/* Resume Download Link */}
-                            <div className="header">
-                                <h3>Download Resume: <a href="/Priya-Resume-2025-Software-Engineer.pdf" download>Priya Ravi</a></h3>
+                            <div className='card-body'>
+                                <h3>Download Resume: <a href="/react-portfolio/Priya-Resume-2025-Software-Engineer.pdf" download>Priya Ravi</a></h3>
                             </div>
-
                         </div>
                     </div>
                 </div>
